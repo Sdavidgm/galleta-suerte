@@ -5,8 +5,8 @@ function RandomPhrase({quote}) {
     const {author, phrase} = quote;
   return (
     <div className='phraseautor'>
-        <p>{phrase} </p>
-        <p><span>,,</span></p>
+        <p>{phrase}</p>
+        
         </div>
   )
 }
